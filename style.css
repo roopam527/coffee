@@ -1,0 +1,77 @@
+body{
+  font-family: 'Lobster', cursive;
+  background: url(look1.jpg) center center fixed;
+  background-size: cover;
+}
+.changed-size{
+
+  height: 250px;
+  background-color:rgba(255,255,255,0.2) ;
+  transition: transform 1s;
+
+}
+.changed-size:hover{
+    background-color:rgba(255,255,255,0.5)
+
+}
+.changed-size:active{
+  transform: rotateX(360deg);
+}
+img{
+  margin-top: 20px;
+  border: 10px dashed rgba(255,255,255,0.2);
+  padding: 4px;
+  height: 200px;
+  width: 200px;
+  image-orientation: center;
+  border-radius: 10%;
+  transition: transform 1s;
+}
+img:hover{
+    border: 5px dashed white;
+}
+img:active{
+  transform: rotateY(360deg);
+}
+span{
+  color:purple;
+  font-size:30px;
+}
+.image{
+  height: 50vh;
+}
+
+.titleimage{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+.page1bg{
+  background-image: url("page1bg(3).jpg");
+}
+p{
+  padding: 20px;
+  font-size: 20px;
+  color: #1F6AB2;
+}
+@media (max-width:420px) {
+  body{
+    background: url('look10.jpg') no-repeat center fixed ;
+    background-size: cover;
+  }
+  img{
+    margin-top: 20px;
+    border: 10px dashed rgba(255,255,255,0.2);
+    padding: 4px;
+    height: 250px;
+    width: 250px;
+    image-orientation: center;
+      border-radius: 10%;
+  }
+  .image{
+    height: 20vh;
+  }
+  p{
+    font-size: 30px;
+  }
+}

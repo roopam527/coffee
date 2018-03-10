@@ -1,0 +1,37 @@
+body{
+  background: url('coffee.jpg') no-repeat center fixed ;
+  background-size: cover;
+
+}
+.jumbotron{
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255,255,255,0.2);
+  border-right: 10px solid rgba(0,0,0,0.2);
+  border-bottom: 10px solid rgba(0,0,0,0.5);
+
+
+
+}
+h1{
+  color:white;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+
+}
+.btn{
+  margin-left: 45%;
+
+}
+.btn-danger{
+    font-family: 'Coiny', cursive;
+}
+
+
+@media (max-width:1275px){
+  body{
+    background: url('coffee6.jpg') no-repeat center fixed ;
+    background-size: cover;
+
+  }
+}
