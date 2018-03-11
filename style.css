@@ -18,18 +18,15 @@ body{
   transform: rotateX(360deg);
 }
 img{
-  margin-top: 20px;
-  border: 10px dashed rgba(255,255,255,0.2);
-  padding: 4px;
+
+
   height: 200px;
   width: 200px;
   image-orientation: center;
-  border-radius: 10%;
+
   transition: transform 1s;
 }
-img:hover{
-    border: 5px dashed white;
-}
+
 img:active{
   transform: rotateY(360deg);
 }
@@ -54,22 +51,37 @@ p{
   font-size: 20px;
   color: #1F6AB2;
 }
+.card{
+  width: 18rem;
+   height:24rem ;
+   margin:10px;
+    text-align: center;
+   background-color: rgba(255,255,255,0.5);
+   transition: transform 1s;
+}
+.card:hover{
+  transform: rotateY(360deg);
+}
 @media (max-width:420px) {
-  body{
-    background: url('look10.jpg') no-repeat center fixed ;
-    background-size: cover;
+  .menu{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+round: linear-gradient(to left, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
-  img{
-    margin-top: 20px;
-    border: 10px dashed rgba(255,255,255,0.2);
-    padding: 4px;
-    height: 250px;
-    width: 250px;
-    image-orientation: center;
-      border-radius: 10%;
-  }
+
+
   .image{
     height: 20vh;
+  }
+  .card{
+    width: 18rem;
+     height:24rem ;
+     margin:10px;
+     text-align: center;
+     background-color: rgba(255,255,255,0.5);
+     transition: transform 1s;
   }
   p{
     font-size: 30px;
